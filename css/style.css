@@ -1,0 +1,131 @@
+body{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#races{
+  clear: both;
+}
+
+.mix{
+	display: none;
+  background: lightgrey;
+  width: 220px;
+  height: 150px;
+  margin: 7px;
+  padding: 0px;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+#races h2{
+  margin: 0;
+  padding: 0;
+}
+
+.filter{
+  cursor: pointer;
+}
+
+.filter.active{
+  font-weight: bold;
+}
+
+.filters{
+  float: left;
+  width: 200px;
+}
+
+.baden{
+  background: url('../images/baden16.png');
+}
+
+.dirtydash{
+  background: url('../images/dirtydash16.png');
+}
+
+.endurrace{
+  background: url('../images/endurrace.png');
+}
+
+.endurrun{
+  background: url('../images/endurrun.png');
+}
+
+.harvesthalf{
+  background: url('../images/harvesthalf16.png');
+}
+
+.inrunningcolour{
+  background: url('../images/inrunningcolour16.png');
+}
+
+.laurierloop{
+  background: url('../images/laurierloop16.png');
+}
+
+.octoberfast{
+  background: url('../images/octoberfast16.png');
+}
+
+.pancake{
+  background: url('../images/pancake16.png');
+}
+
+.refridgeeator{
+  background: url('../images/refridgeeator16.png');
+}
+
+.rememberrun{
+  background: url('../images/rememberrun16.png');
+}
+
+.runway{
+  background: url('../images/runway16.png');
+}
+
+.santapursuit{
+  background: url('../images/santapursuit16.png');
+}
+
+.waterlooclassic{
+  background: url('../images/waterlooclassic16.png');
+}
+
+
+.new{
+  text-indent: 0px;
+}
+
+.multi h3, .multi .date{
+  text-indent: 0;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.multi h3{
+
+}
+
+.multi .date{
+  text-transform: uppercase;
+}
+
+.endurrace h3{
+  top: 60px;
+}
+
+.endurrace .date{
+  top: 45px;
+}
+
+
+.endurrun h3{
+  top: 35px;
+}
+
+.endurrun .date{
+  top: 45px;
+}
